@@ -1,0 +1,1 @@
+Triggering Vercel deploy at 2025-09-03T00:00:00Z (UTC). This file is safe to remove.
