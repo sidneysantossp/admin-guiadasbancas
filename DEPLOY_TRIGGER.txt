@@ -1,11 +1,5 @@
-- Triggering Vercel deploy at 2025-01-22T15:30:00Z (UTC) - Force rebuild to clear vercel-php cache. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T10:30:00Z (UTC). This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T15:30:00Z (UTC) - Force rebuild to clear vercel-php cache. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T16:45:00Z (UTC) - Optimized deployment with excludeFiles to reduce function size under 250MB limit. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T17:00:00Z (UTC) - Changed runtime to generic 'vercel-php' to force latest version and clear version cache. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T17:30:10Z (UTC) - Fix vercel.json schema for excludeFiles. This file is safe to remove.
-- Triggering Vercel deploy at 2025-01-23T17:45:00Z (UTC) - Optimized excludeFiles to under 256 characters limit. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T18:00:00Z (UTC) - Fixed PHP runtime version specification. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T18:15:00Z (UTC) - Corrected PHP runtime to valid version 0.7.4. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T18:30:00Z (UTC) - Enhanced excludeFiles to reduce function size under 250MB. This file is safe to remove.
- - Triggering Vercel deploy at 2025-01-23T18:32:15Z (UTC) - Aggressive optimization - excluded vendor directory and enhanced .vercelignore. This file is safe to remove.
+Deploy trigger file - forces new deployment
+
+2025-01-24 15:30:45 - Enhanced excludeFiles configuration to reduce function size under 250MB
+2025-01-24 16:45:12 - Aggressive optimization: exclude vendor directory and enhance .vercelignore to reduce function size under 250MB
+2025-01-24 17:15:30 - ULTRA-AGGRESSIVE: Custom build script with production-only composer install, vendor cleanup, and optimized exclusions

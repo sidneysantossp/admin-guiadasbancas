@@ -1,9 +1,10 @@
 {
   "version": 2,
+  "buildCommand": "chmod +x build.sh && ./build.sh",
   "functions": {
     "api/**/*.php": {
       "runtime": "vercel-php@0.7.4",
-      "excludeFiles": "vendor/** storage/** tests/** .git/** bootstrap/cache/** node_modules/** public/assets/** resources/** installation/** Modules/** admin-bancas-do-bairro/** servidor-web/** database/** tools/** *.log *.cache composer.lock package-lock.json webpack.mix.js"
+      "excludeFiles": "storage/** tests/** .git/** bootstrap/cache/** node_modules/** public/assets/** resources/** installation/** Modules/** admin-bancas-do-bairro/** servidor-web/** database/** tools/** *.log *.cache *.md *.txt composer.lock package-lock.json webpack.mix.js .env.* README.md .editorconfig .styleci.yml .gitattributes .gitignore .htaccess .rnd phpunit.xml artisan server.php"
     }
   },
   "routes": [

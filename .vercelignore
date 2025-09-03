@@ -1,49 +1,75 @@
-# Vercel ignore file
-# This file forces a fresh deployment
-
-# Dependencies (CRITICAL - largest directories)
-vendor/
-node_modules/
-composer.lock
-package-lock.json
-
-# Storage and cache
+# Large directories (vendor now managed by build script)
 storage/
-bootstrap/cache/
-*.log
-*.cache
-logs/
-
-# Development and testing
 tests/
-tools/
-.git/
-.env*
-
-# Large asset directories
 public/assets/
 resources/
 installation/
 Modules/
 admin-bancas-do-bairro/
 servidor-web/
-database/migrations/
-database/seeders/
+database/
+tools/
 
-# Build and config files
+# Dependencies (managed by build process)
+node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Development files
+.env*
+.git/
+.gitignore
+.gitattributes
+.editorconfig
+.styleci.yml
 webpack.mix.js
-*.sh
-*.ini
+phpunit.xml
+artisan
+server.php
+criar_distribuidor.php
+echo_db_name.php
+test_tax.php
+script.sh
 php.ini
+
+# Cache and logs
+*.log
+*.cache
+bootstrap/cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/debugbar/
+storage/tmp/
 
 # Documentation
 README.md
 *.md
+*.txt
+
+# Build artifacts
+build/
+dist/
+.next/
+.nuxt/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Temporary files
-tmp/
-temp/
 *.tmp
 *.temp
-.cache
-.vercel
+.rnd
+.htaccess
+
+# Module status
+modules_statuses.json
