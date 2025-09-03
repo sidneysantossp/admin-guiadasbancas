@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/**/*.php": {
-      "runtime": "vercel-php@3.0.0",
+      "runtime": "vercel-php@0.7.4",
       "excludeFiles": "storage/** tests/** node_modules/** .git/** .idea/** .vscode/** *.log *.cache bootstrap/cache/** vendor/*/test** vendor/**/*.md vendor/**/README* vendor/**/docs/**"
     }
   },
