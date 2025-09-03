@@ -1,0 +1,52 @@
+/* Custom CSS para manter submenus abertos na versão desktop */
+
+/* Força os submenus a ficarem abertos em telas desktop (>= 1200px) */
+@media (min-width: 1200px) {
+    /* Mantém todos os submenus visíveis */
+    .navbar-vertical-aside .js-navbar-vertical-aside-submenu {
+        display: block !important;
+    }
+    
+    /* Adiciona a classe 'show' aos menus que têm submenus */
+    .navbar-vertical-aside .navbar-vertical-aside-has-menu {
+        /* Força o estado expandido */
+    }
+    
+    /* Garante que os links de toggle não colapsem os submenus */
+    .navbar-vertical-aside .nav-link-toggle::after {
+        transform: rotate(90deg) !important;
+    }
+    
+    /* Estilo para indicar que o submenu está sempre aberto */
+    .navbar-vertical-aside .navbar-vertical-aside-has-menu > .nav-link-toggle {
+        position: relative;
+    }
+    
+    /* Remove a funcionalidade de toggle em desktop */
+    .navbar-vertical-aside .js-navbar-vertical-aside-menu-link.nav-link-toggle {
+        pointer-events: none;
+        cursor: default;
+    }
+    
+    /* Permite clique apenas nos itens do submenu */
+    .navbar-vertical-aside .js-navbar-vertical-aside-submenu .nav-link {
+        pointer-events: auto;
+        cursor: pointer;
+    }
+}
+
+/* Mantém o comportamento normal em telas menores */
+@media (max-width: 1199px) {
+    .navbar-vertical-aside .js-navbar-vertical-aside-submenu {
+        display: none;
+    }
+    
+    .navbar-vertical-aside .navbar-vertical-aside-has-menu.show .js-navbar-vertical-aside-submenu {
+        display: block;
+    }
+    
+    .navbar-vertical-aside .js-navbar-vertical-aside-menu-link.nav-link-toggle {
+        pointer-events: auto;
+        cursor: pointer;
+    }
+}
