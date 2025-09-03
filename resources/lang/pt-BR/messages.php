@@ -7304,4 +7304,11 @@
   'Informações de Pagamento' => 'Informações de Pagamento',
   'Método de Pagamento' => 'Método de Pagamento',
   'Status do Pagamento' => 'Status do Pagamento',
+  'Gerenciar Estoque de Jornaleiros' => 'Gerenciar Estoque de Jornaleiros',
+  'Gerencie o estoque dos produtos habilitados pelos jornaleiros' => 'Gerencie o estoque dos produtos habilitados pelos jornaleiros',
+  'Estoque baixo' => 'Estoque baixo',
+  'Atualizar em Lote' => 'Atualizar em Lote',
+  'Produtos Habilitados pelos Jornaleiros' => 'Produtos Habilitados pelos Jornaleiros',
+  'Preço Distribuidor' => 'Preço Distribuidor',
+  'Novo Estoque' => 'Novo Estoque',
 );

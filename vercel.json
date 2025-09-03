@@ -3,7 +3,7 @@
   "functions": {
     "api/**/*.php": {
       "runtime": "vercel-php",
-      "excludeFiles": "storage/** tests/** node_modules/** .git/** .idea/** .vscode/** *.log *.cache bootstrap/cache/** vendor/*/tests/** vendor/*/test/** vendor/*/*/tests/** vendor/*/*/test/** vendor/**/*.md vendor/**/README* vendor/**/CHANGELOG* vendor/**/LICENSE* vendor/**/docs/** vendor/**/examples/** vendor/**/demo/**"
+      "excludeFiles": "storage/** tests/** node_modules/** .git/** .idea/** .vscode/** *.log *.cache bootstrap/cache/** vendor/*/test** vendor/**/*.md vendor/**/README* vendor/**/docs/**"
     }
   },
   "routes": [
