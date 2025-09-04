@@ -4,7 +4,7 @@
   "functions": {
     "api/**/*.php": {
       "runtime": "vercel-php@0.7.4",
-      "excludeFiles": "storage/**,tests/**,node_modules/**,installation/**,Modules/**,admin-bancas-do-bairro/**,servidor-web/**,database/**,tools/**"
+      "excludeFiles": "storage/**,tests/**,installation/**,Modules/**,admin-bancas-do-bairro/**,servidor-web/**,database/**,tools/**"
     }
   },
   "routes": [

@@ -12,6 +12,7 @@ tools/
 
 # Dependencies (managed by build process)
 node_modules/
+vendor/
 composer.lock
 package-lock.json
 yarn.lock
@@ -37,6 +38,32 @@ vendor/myclabs/
 vendor/phar-io/
 vendor/php-debugbar/
 vendor/barryvdh/laravel-debugbar/
+
+# Additional heavy production packages to reduce size
+vendor/barryvdh/laravel-dompdf/
+vendor/mpdf/
+vendor/intervention/image/
+vendor/maatwebsite/excel/
+vendor/doctrine/dbal/
+vendor/league/flysystem-aws-s3-v3/
+vendor/guzzlehttp/
+vendor/symfony/
+vendor/monolog/
+vendor/nesbot/carbon/
+vendor/vlucas/phpdotenv/
+vendor/ramsey/uuid/
+vendor/egulias/email-validator/
+vendor/swiftmailer/
+vendor/tijsverkoyen/css-to-inline-styles/
+vendor/dragonmantank/cron-expression/
+vendor/league/commonmark/
+vendor/league/config/
+vendor/league/mime-type-detection/
+vendor/psr/
+vendor/composer/
+vendor/dflydev/
+vendor/webmozart/
+vendor/phpoption/
 
 # Development files
 .env*
