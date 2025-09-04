@@ -16,7 +16,7 @@ public/
 *.zip
 *.sql
 *.xlsx
-*.lock
+composer.lock
 
 # Development files
 .env*
