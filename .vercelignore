@@ -1,14 +1,37 @@
-# Exclude everything except essential Laravel core files
-*
+# Large directories to reduce size
+storage/
+tests/
+installation/
+Modules/
+admin-bancas-do-bairro/
+servidor-web/
+database/migrations/
+database/seeders/
+database/factories/
+tools/
+bootstrap/cache/
+config/
 
-# Include only essential files
-!api/
-!api/index.php
-!app/
-!app/**
-!routes/
-!routes/**
-!public/
-!public/index.php
-!composer.minimal.json
-!.env.example
+# Dependencies (let Vercel handle these)
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# Development files
+.env*
+.git/
+.gitignore
+.gitattributes
+.editorconfig
+.styleci.yml
+webpack.mix.js
+phpunit.xml
+artisan
+server.php
+script.sh
+php.ini
+README.md
+*.md
+*.txt
+*.log
