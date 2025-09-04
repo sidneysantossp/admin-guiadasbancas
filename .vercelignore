@@ -16,6 +16,28 @@ composer.lock
 package-lock.json
 yarn.lock
 
+# Heavy vendor packages (dev dependencies)
+vendor/phpunit/
+vendor/mockery/
+vendor/fakerphp/
+vendor/nunomaduro/
+vendor/spatie/laravel-ignition/
+vendor/spatie/backtrace/
+vendor/spatie/error-solutions/
+vendor/spatie/flare-client-php/
+vendor/filp/whoops/
+vendor/laravel/sail/
+vendor/laravel/pint/
+vendor/laravel/tinker/
+vendor/psy/
+vendor/sebastian/
+vendor/theseer/
+vendor/hamcrest/
+vendor/myclabs/
+vendor/phar-io/
+vendor/php-debugbar/
+vendor/barryvdh/laravel-debugbar/
+
 # Development files
 .env*
 .git/
