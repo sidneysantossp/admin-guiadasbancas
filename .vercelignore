@@ -1,37 +1,19 @@
-# Large directories to reduce size
+# Exclude heavy directories only
 storage/
 tests/
 installation/
 Modules/
 admin-bancas-do-bairro/
 servidor-web/
-database/migrations/
-database/seeders/
-database/factories/
+database/
 tools/
 bootstrap/cache/
-config/
-
-# Dependencies (let Vercel handle these)
 node_modules/
 vendor/
-composer.lock
-package-lock.json
 
 # Development files
 .env*
 .git/
-.gitignore
-.gitattributes
-.editorconfig
-.styleci.yml
-webpack.mix.js
-phpunit.xml
-artisan
-server.php
-script.sh
-php.ini
-README.md
 *.md
 *.txt
 *.log

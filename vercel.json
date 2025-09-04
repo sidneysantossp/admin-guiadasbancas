@@ -1,11 +1,6 @@
 {
   "version": 2,
   "buildCommand": "cp composer.minimal.json composer.json && composer install --no-dev --optimize-autoloader",
-  "functions": {
-    "api/index.php": {
-      "runtime": "vercel-php@0.7.4"
-    }
-  },
   "routes": [
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
