@@ -10,6 +10,13 @@ tools/
 bootstrap/cache/
 node_modules/
 vendor/
+public/
+
+# Large files
+*.zip
+*.sql
+*.xlsx
+*.lock
 
 # Development files
 .env*
@@ -17,3 +24,7 @@ vendor/
 *.md
 *.txt
 *.log
+*.ini
+*.sh
+*.rnd
+.htaccess
