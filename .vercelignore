@@ -3,8 +3,12 @@
 
 # Include only essential files
 !api/
+!api/index.php
 !app/
+!app/**
 !routes/
+!routes/**
+!public/
 !public/index.php
 !composer.minimal.json
 !.env.example
