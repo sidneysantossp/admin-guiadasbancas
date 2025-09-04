@@ -2,6 +2,6 @@
   "version": 2,
   "buildCommand": "cp composer.minimal.json composer.json && composer install --no-dev --optimize-autoloader",
   "routes": [
-    { "src": "/(.*)", "dest": "/api/index.php" }
+    { "src": "/(.*)", "dest": "/index.php" }
   ]
 }
