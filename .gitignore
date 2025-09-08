@@ -59,3 +59,5 @@ phpunit.xml
 
 # Vercel / local
 .vercel/
+
+.vercel
