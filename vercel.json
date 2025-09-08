@@ -1,6 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "",
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": null,
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.4"
@@ -9,5 +11,16 @@
   "routes": [
     { "src": "/", "dest": "/api/test.html" },
     { "src": "/(.*)", "dest": "/api/index.php" }
+  ],
+  "headers": [
+    {
+      "source": "/api/test.html",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ]
+    }
   ]
 }
